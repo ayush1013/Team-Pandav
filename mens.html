@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:1%;
+        }
+#Parent{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    justify-content: center;
+    padding: 5% ;
+}
+#Parent>div{
+    padding: 10px 19px;
+margin-top: 10px;    
+}
+    #Parent> div img{
+        width: 50%;
+        max-height: 50%;
+        margin:auto;
+        display: block;
+    }
+    #Parent>div>div{
+        margin-top: 20px;
+    }
+    img+h1{
+        margin-top: 20px;
+    }
+    
+p{
+    font-size: 22px;
+    color: grey;
+    
+}
+   .h1{
+       display: inline;
+
+   }
+   .h1+span{
+    color: grey;
+
+   }
+   span+span{
+       color: green;
+   }
+
+    </style>
+</head>
+<body>
+    <div id="Parent">
+    <div>
+        <img src="https://i.pinimg.com/564x/27/e3/74/27e3748ab1bd7b1393edf1a5fe6ef7e9--hoodies-for-men-sweatshirts--hoodies.jpg
+        " alt="Error">
+        <h1>Pause</h1>
+        <p>Men Cotton Long Sleeve Shrug</p>
+        <div>
+            <h1 class="h1">$3</h1>
+            <span><del>$20 Off</del></span>
+                <span>76% Save </span>
+        </div>
+    </div>
+        <div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61qnFvuQwxL.__AC_SX300_SY300_QL70_ML2_.jpg
+            " alt="Error">
+            <h1>JUBINATION</h1>
+            <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+            <div>
+                <h1 class="h1">$3</h1>
+                <span><del>$20 Off</del></span>
+                    <span>76% Save </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
